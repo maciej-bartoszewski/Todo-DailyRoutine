@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+}
+
+.tables {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
+    margin-bottom: 3rem;
+}
+
+.component {
+    margin-left: 13.5%;
+    margin-right: 13.5%;
+    margin-bottom: 4rem;
+}
+
+.table thead {
+    --bs-table-bg: #f2f2f2;
+}
+
+.table {
+    --bs-table-bg: #fcfcfc;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.btn-light {
+    background-color: #f2f2f2;
+}
+
+.title {
+    background-color:gainsboro;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.tableName {
+    background-color:gainsboro;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.tableName:hover {
+    background-color: #f2f2f2;
+}
+
+.fact {
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: gainsboro;
+}
+
+h2 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+}
+
+.info {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer {
+    position: fixed;
+    background-color: gainsboro;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+}
+
+.form {
+    width: 50%;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+}
+
+.form-control {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    margin-left: 5%;
+    width: 90%;
+}
+
+label {
+    background-color:gainsboro;
+    width: 90%;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+@media (max-width: 991.98px){
+    .tables {
+        grid-template-columns: 1fr;
+        gap: 0;    
+    }
+}
